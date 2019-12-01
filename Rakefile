@@ -15,6 +15,7 @@ namespace :db do
   task :migrate => :environment do
     Student.create_table
   end
+  
 end
 
 desc 'drop into the Pry console'
